@@ -4,7 +4,7 @@ In this repo, I will save the web app in where I show the data recolected and an
 
 ## Technical Details
 The application is created in **Dash**, which is a Python library that allows, together with **Plotly**, to create graphs and place them within Html code.
-I also use **Pandas** to clean and prepare the data. This caused the app to load very slowly when the dataset was larger. <br>
+I also use **Pandas** to prepare the data. The data is extracted from a MsSQL database hosted in AWS. <br>
 In the future I will try to implement Polars, a library write in Rust, that allows data process faster.
 
 ## Design
