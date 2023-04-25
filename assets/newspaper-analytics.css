@@ -1,15 +1,15 @@
-body{
-    font-family: 'Poppins', sans-serif;
+/*Icons*/
+.fa-linkedin, .fa-square-github{
+    color: rgb(30, 48, 80) !important;
+    font-size: 30px !important;
+    margin-right: 10px !important;
+    --fa-animation-duration: 3s !important;
+    --fa-beat-scale: 1.1 !important;
 }
-
-.navbar-brand {
-    font-size: 25px;
-} 
-
 
 /*Glass Theme*/
 .glass-background {
-    background-image: url(worldr.png);
+    background-image: url(oldpaper-worldmap3.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -21,17 +21,17 @@ body{
     rgba(191, 186, 186, 0.1)) !important;
     box-shadow: 5px 5px 5px rgba(113, 126, 150, 0.6);
     height: 60px;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
 }
 
 .glass-card {
     background: linear-gradient(to right bottom,
-    rgba(233, 236, 239, 0.4), 
-    rgba(233, 236, 239, 0.3));
+    rgba(233, 236, 239, 0.6), 
+    rgba(233, 236, 239, 0.5));
     border-bottom-left-radius: 0.6rem;
     border-bottom-right-radius: 0.6rem;
     box-shadow: 5px 5px 5px rgba(113, 126, 150, 0.6);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(9px);
     border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
@@ -43,6 +43,10 @@ body{
     min-height: 35px !important;
 }
 
+.glass-footer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 /* Changing the datePicker height*/
 .DateInput_input, .DateInput_input_1 {
@@ -81,7 +85,7 @@ body{
 
 .styled-table th,
 .styled-table td {
-    padding: 3px 10px;
+    padding-left: 10px;
 }
 
 .styled-table tbody tr {
@@ -90,14 +94,55 @@ body{
 
 .button-random-news {
     background-color: #023e8a;
-    padding-top: 5px;
+    width: 200px;
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    font-size: 15px;
+    transform: translate(-50%, 0%);
+}
+
+/* Accordion modifications */
+.accordion-button:not(.collapsed), .accordion-button {
+    background: rgba(255, 255, 255, 0);
+}
+
+.accordion {
+    --bs-accordion-active-color: #212529;
+    --bs-accordion-border-width: 0.5px;
+    --bs-accordion-border-color: rgba(33, 37, 41, .5);
+}
+
+.accordion-button {
+    padding: 10px 15px;
+    font-size: 20px;
+}
+
+.accordion-body {
+    padding: 10px 15px;
+    padding-bottom: 2px;
+    font-size: 15px;
+}
+
+/* Several Changes */
+
+.transparent-bg {
+    background: rgba(255, 255, 255, 0);
+    border: none
 }
 
 .td-100 {
     width: 100%;
 }
 
-/*Several changes*/
-.country-dropdown {
-    margin-top: 10px;
+.title-separator {
+    height: .5px;
+}
+
+.navbar-brand {
+    font-size: 25px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
 }
