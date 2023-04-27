@@ -3,9 +3,17 @@
 In this repo, I will save the web app in where I show the data recolected and analized by the scraper and NLP model.
 
 ## Technical Details
-The application is created in **Dash**, which is a Python library that allows, together with **Plotly**, to create graphs and place them within Html code.
-I also use **Pandas** to prepare the data. The data is extracted from a MsSQL database hosted in AWS. <br>
-In the future I will try to implement Polars, a library write in Rust, that allows data process faster.
+
+The technologies used to build the project are:
+
+- Dash
+- Plotly
+- Pandas
+- Nginx
+- Gunicorn
+- AWS RDS -> MySQL
+- EC2 -> Web Hosting
+
 
 ## Design
 In my opinion, newspapers should represent sincerity and transparency, for that reason I chose a **glassed style** and colors that represent those emotions. <br>
@@ -14,7 +22,7 @@ When I chose the fonts, I quickly leaned towards Serif fonts, but they didn't me
   
 ## For the Future
 I want to:
-- Improve the loading times.
+- Improve the loading times. In the future I will try to implement Polars, a library write in Rust, that allows data process faster.
 - Improve the design.
 - Add graphs like Scatter Plot, to show how the positivity varies over time.
 - Use a better NLP model to get more accurated predictions.
