@@ -1,4 +1,4 @@
-# newspaper-analytics-webapp
+# Newspaper Analytics: Web App
 
 In this repo, I will save the web app in where I show the data recolected and analized by the scraper and NLP model.
 
